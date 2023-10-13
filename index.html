@@ -1,43 +1,291 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Index1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
-<body>
-    <div class="card text-center">
-        <div class="card-header">
-          <ul class="nav nav-pills card-header-pills">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">home</a>
-            </li>
-            <<li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">About</a>
-              </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Menu</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">team</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">muon them bao bnhiu cai cung dc</a>
-              </li>
 
-          </ul>
+<body>
+    <header>
+        <div class="header-container">
+            <a class="logo" href="http://127.0.0.1:3000/Index1.html" aria-label="store logo">
+                <img src="https://cdn.everythingkitchens.com/media/logo/stores/1/logo.svg"
+                    title="Go to the Everything Kitchens homepage" alt="Go to the Everything Kitchens homepage"
+                    width="148" height="43">
+            </a>
+            <div class="search-container">
+                <div>
+                    <input type="text" class="w-75" placeholder="Search for Product, Category,...">
+                    <button type="submit">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="login-container">
+                <div>
+                    <i class="fa-solid fa-user"></i>
+                    <!-- Full screen modal -->
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <i class="fa-solid fa-arrow-down-long"></i>
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="logo_login">
+                                    <img src="https://cdn.everythingkitchens.com/media/logo/stores/1/logo.svg"
+                                        title="Go to the Everything Kitchens homepage"
+                                        alt="Go to the Everything Kitchens homepage" width="250" height="80">
+                                    <form action="#" class="login_form">
+                                        <input type="email" placeholder="Email Address">
+                                        <input type="password" placeholder="Password">
+                                        <button type="submit">Login</button>
+                                        <div class="checkbox_login">
+                                            <input type="checkbox">
+                                            <p>Remember Me</p>
+                                        </div>
+                                        <a href="">Forgot Your Password ? </a>
+                                        <div class="login_line"></div>
+                                        <div class="create_account">
+                                            <p>Don't have an account</p>
+                                            <a href="">Sign Up Now</a>
+                                        </div>
+                                    </form>
+
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="custom-name" aria-hidden="true"> Account </div>
+                </div>
+            </div>
+            <div class="cart-container">
+                <i class="fa-solid fa-cart-shopping"></i>
+
+            </div>
         </div>
-        <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="navigation" data-action="navigation">
+            <div class="dropdown">
+                <li class="btn" type="button" aria-expanded="false">
+                    <a href=""><span>New Arrival</span></a>
+                </li>
+            </div>
+            <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a href="">Small Appliances</a></button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Blending & Drinks</a></li>
+                    <li><a class="dropdown-item" href="#">Coffee & Expresso</a></li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><a
+                        href=""><a href="">Glassware & Tabletop</a></button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">DinnerWare</a></li>
+                    <li><a class="dropdown-item" href="#">GlassWare & DrinkWare</a></li>
+                </ul>
+            </div>
+
+            <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><a
+                        href=""><a href=""><a href="">Cooks'Tool</a></button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Utensils</a></li>
+                    <li><a class="dropdown-item" href="#">Mixing & Prep Bowls</a></li>
+                </ul>
+            </div>
+
+            <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><a
+                        href=""><a href=""><a href="">BakeWare</a></button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Baking Pans & Dishes</a></li>
+                    <li><a class="dropdown-item" href="#">Baking Tools</a></li>
+                </ul>
+            </div>
+
+            <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><a
+                        href="">Cookware</a></button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Cookware Sets</a></li>
+                    <li><a class="dropdown-item" href="#">Dutch Ovens & Braisers</a></li>
+                    <li><a class="dropdown-item" href="#">Grill Pans Griddles</a></li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><a
+                        href="">Knives</a></button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Knife Sets</a></li>
+                    <li><a class="dropdown-item" href="#">Knife Block Sets</a></li>
+                    <li><a class="dropdown-item" href="#">Knife Accessories</a></li>
+                </ul>
+            </div>
+
+            <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><a
+                        href=""><a href="">Home</a></button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Organization</a></li>
+                    <li><a class="dropdown-item" href="#">Pantry</a></li>
+                    <li><a class="dropdown-item" href="#">Home Decor</a></li>
+                </ul>
+            </div>
+
+            <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><a
+                        href=""><a href=""><a href="">Commercial</a></button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">BakeWare</a></li>
+                    <li><a class="dropdown-item" href="#">Electrics</a></li>
+                </ul>
+            </div>
+
         </div>
-      </div>
+
+        <div class="border d-flex gap-5 justify-content-center p-3 m-2 border-2">
+            <div class=" border-end "><span>$5 OFF</span> order $99+ or <span>$10 OFF</span> orders $199+</div>
+            <div class=" border-end">USE CODE : HAPPYCHEF</div>
+            <div class="sale    "><a href="" class="text-decoration-none ">Restrictions Apply</a></div>
+        </div>
+    </header>
+    <section>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="main_container carousel-item active" data-bs-interval="10000">
+                    <img class="img"
+                        src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png"
+                        alt="photo">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="main_container carousel-item" data-bs-interval="2000">
+                    <img class="img"
+                        src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png"
+                        alt="photo">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class=" main_container carousel-item">
+                    <img class="img"
+                        src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png"
+                        alt="photo">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon btn-move" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon btn-move" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+        </div>
+    </section>
+    <section id="sale-section">
+        <div class="main_container">
+            <img class="img"
+                src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png"
+                alt="photo">
+            <div class="text_img">
+                <h1>Flash <span>Sale</span></h1>
+                <h5>Ends Wednesday</h5>
+                <p>Everything Kitchens hosts its annual Flash 3-Day Sale. Featuring the best deals that you can't
+                    find
+                    anywhere else! Fiesta®, Mason Cash, Blendtec and many more!</p>
+                <button>Shop Now</button>
+            </div>
+        </div>
+        <!-- <div class="main_container">
+            <img class="img"
+                src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png" alt="">
+            <div class="text_img">
+                <h2><strong>Le Creuset</strong></h2>
+                <h6 class="home-text">Shop recently arrived Le Creuset: <strong>Everyday Pans, Iris Collection,
+                        Toughened Nonstick Pro Saucepan</strong>, and more! <br><br>Mix &amp; match 3+ select Le
+                    Creuset
+                    favorites and save up to 30% off! <i>*See individual products for details.</i><br>Use code:
+                    <strong>SET</strong>
+                </h6>
+                <button>Shop Now</button>
+            </div>
+        </div> -->
+        <!-- <div class="deal">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png" alt="">
+            <div class="deal-text">
+                <strong>Deals, Deals, Deals!</strong>
+                <p class=""><strong>Up to 60% off!</strong> Shop top sales from top brands, while supplies last!</p>
+            </div>
+            <button>Shop Now</button>
+        </div> -->
+    </section>
+
+    <section class="Weekly-product">
+        <h2>Weekly Deal Busters</h2>
+        <div class="weekly-deal container">
+            <div>
+                <img src="ảnh/dbj_0006_Layer.webp" alt="">
+                <p><a href="">Blendtec Classic 575 Blender w/ FourSide Jar | Black</a></p>
+                <span>30% OFF</span>
+            </div>
+            <div>
+                <img src="ảnh/a_0002_tdeal.webp" alt="">
+                <p><a href="">Tripar International 3-Tier Wooden Display Stand</a></p>
+                <span>30% OFF</span>
+            </div>
+            <div>
+                <img src="ảnh/2001.330_1.webp" alt="">
+                <p><a href="">Instant Omni Air Fryer Toaster Oven | Black</a></p>
+                <span>40% OFF</span>
+            </div>
+            <div>
+                <img src="ảnh/sbsep_0001_Layer.webp" alt="">
+                <p><a href="">Barnyard Baby Animals Round Pot Holder | Caprine Caper Goats</a></p>
+                <span>20% OFF</span>
+            </div>
+            <div>
+                <img src="ảnh/61npidj8zpl._ac_sl1500_.webp" alt="">
+                <p><a href="">Mason Cash Color Mix S18 Mixing Bowl | Grey</a></p>
+                <span>30% OFF</span>
+            </div>
+            <div>
+                <img src="ảnh/DB6191.webp" alt="">
+                <p><a href="">Zwilling J.A. Henckels TWIN Signature 19pc Knife Block Set</a></p>
+                <span>50% OFF</span>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
