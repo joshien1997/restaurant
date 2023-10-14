@@ -255,7 +255,7 @@ function nextTo(index) {
     .map(
       (item, index) =>
         `<div class="col-xl-3 col-lg-4 col-md-6" style="margin-top: 24px">
-        <a href="#" style="text-decoration:none" >
+        <a href="product-detail.html?id=${item.id}" style="text-decoration:none" >
             <div class="card" style="width: 18rem;">
                 <img src=${item.img} class="card-img-top img-product-item" alt="...">
                 <div class="card-body">
@@ -270,3 +270,4 @@ function nextTo(index) {
     )
     .join("");
 }
+
