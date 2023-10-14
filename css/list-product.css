@@ -1,0 +1,23 @@
+.title {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    /* number of lines to show */
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.description {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    /* number of lines to show */
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.img-product-item {
+    width: 18rem;
+    height: 18rem;
+    object-fit: cover;
+}

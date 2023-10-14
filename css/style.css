@@ -312,7 +312,7 @@ i.fa-solid.fa-user {
     margin-bottom: 32px;
 }
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
     .carousel-inner .carousel-item>div {
         display: none;
     }
@@ -326,10 +326,10 @@ i.fa-solid.fa-user {
 .carousel-inner .carousel-item-next,
 .carousel-inner .carousel-item-prev {
     display: flex;
-}
+} */
 
 /* medium and up screens */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
 
     .carousel-inner .carousel-item-end.active,
     .carousel-inner .carousel-item-next {
@@ -345,25 +345,32 @@ i.fa-solid.fa-user {
 .carousel-inner .carousel-item-end,
 .carousel-inner .carousel-item-start {
     transform: translateX(0);
-}
+} */
 
 .view {
     height: 100px;
     background-color: #8b0b04;
 }
 
-.btn-move {
-    height: 200px;
-    width: 200px;
-    border-radius: 50px;
-    background-color: red;
-    /* border-width: 2px; */
+/* .nav-template .navlink:focus,
+.nav-template .navlink:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+} */
+.wrap-btn-next,
+.wrap-btn-prev {
+    background-color: #e1e1e1;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    /* top: 50%;
+    transform: translateY(-50%); */
 }
 
-.carousel-item h5  {
-    color: white;
+.Items-sale {
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 
-.carousel-item p  {
-    color: white;
+.Items-sale h2 {
+    text-align: center;
 }

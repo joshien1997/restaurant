@@ -1,0 +1,95 @@
+<header>
+    <div class="header-container">
+        <a class="logo" href="index.html" aria-label="store logo">
+            <img src="https://cdn.everythingkitchens.com/media/logo/stores/1/logo.svg"
+                title="Go to the Everything Kitchens homepage" alt="Go to the Everything Kitchens homepage" width="148"
+                height="43">
+        </a>
+        <div class="search-container">
+            <div>
+                <input type="text" class="w-75" placeholder="Search for Product, Category,...">
+                <button type="submit">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+        </div>
+        <div class="login-container">
+            <div>
+                <i class="fa-solid fa-user"></i>
+                <!-- Full screen modal -->
+                <!-- Button trigger modal -->
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <i class="fa-solid fa-arrow-down-long"></i>
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="logo_login">
+                                <img src="https://cdn.everythingkitchens.com/media/logo/stores/1/logo.svg"
+                                    title="Go to the Everything Kitchens homepage"
+                                    alt="Go to the Everything Kitchens homepage" width="250" height="80">
+                                <form action="#" class="login_form">
+                                    <input type="email" placeholder="Email Address">
+                                    <input type="password" placeholder="Password">
+                                    <button type="submit">Login</button>
+                                    <div class="checkbox_login">
+                                        <input type="checkbox">
+                                        <p>Remember Me</p>
+                                    </div>
+                                    <a href="">Forgot Your Password ? </a>
+                                    <div class="login_line"></div>
+                                    <div class="create_account">
+                                        <p>Don't have an account</p>
+                                        <a href="">Sign Up Now</a>
+                                    </div>
+                                </form>
+
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="custom-name" aria-hidden="true"> Account </div>
+            </div>
+        </div>
+        <div class="cart-container">
+            <i class="fa-solid fa-cart-shopping"></i>
+
+        </div>
+    </div>
+    <div class="navigation" data-action="navigation">
+        <div class="dropdown">
+            <li class="btn" type="button" aria-expanded="false">
+                <a href="list-product.html"><span>New Arrival</span></a>
+            </li>
+        </div>
+        <div class="dropdown">
+            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a href="">Small Appliances</a></button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="list-product.html">Blending & Drinks</a></li>
+                <li><a class="dropdown-item" href="list-product.html">Coffee & Expresso</a></li>
+            </ul>
+        </div>
+        <div class="dropdown">
+            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><a
+                    href=""><a href="">Glassware & Tabletop</a></button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="list-product.html">DinnerWare</a></li>
+                <li><a class="dropdown-item" href="list-product.html">GlassWare & DrinkWare</a></li>
+            </ul>
+        </div>
+
+        <div class="dropdown">
+            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><a
+                    href=""><a href=""><a href="">Cooks'Tool</a></button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="list-product.html">Utensils</a></li>
+                <li><a class="dropdown-item" href="list-product.html">Mixing & Prep Bowls</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
