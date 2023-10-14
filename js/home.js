@@ -1,98 +1,14 @@
-const items = [
-  {
-    id: 1,
-    title: "sunil",
-    description: "24",
-    img: "https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2021/01/illustrations-cover.jpg",
-    link: "test",
-  },
-  {
-    id: 2,
-    title: "sunil",
-    description: "24",
-    img: "https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2021/01/illustrations-cover.jpg",
-    link: "test",
-  },
-  {
-    id: 3,
-    title: "sunil",
-    description: "24",
-    img: "https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2021/01/illustrations-cover.jpg",
-    link: "test",
-  },
-  {
-    id: 4,
-    title: "sunil",
-    description: "24",
-    img: "https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2021/01/illustrations-cover.jpg",
-    link: "test",
-  },
-  {
-    id: 5,
-    title: "sunil",
-    description: "24",
-    img: "https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2021/01/illustrations-cover.jpg",
-    link: "test",
-  },
-  {
-    id: 6,
-    title: "sunil",
-    description: "24",
-    img: "https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2021/01/illustrations-cover.jpg",
-    link: "test",
-  },
-  {
-    id: 7,
-    title: "sunil",
-    description: "24",
-    img: "https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2021/01/illustrations-cover.jpg",
-    link: "test",
-  },
-  {
-    id: 8,
-    title: "sunil",
-    description: "24",
-    img: "https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2021/01/illustrations-cover.jpg",
-    link: "test",
-  },
-  {
-    id: 9,
-    title: "sunil",
-    description: "24",
-    img: "https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2021/01/illustrations-cover.jpg",
-    link: "test",
-  },
-  {
-    id: 10,
-    title: "sunil",
-    description: "24",
-    img: "https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2021/01/illustrations-cover.jpg",
-    link: "test",
-  },
-  {
-    id: 11,
-    title: "sunil",
-    description: "24",
-    img: "https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2021/01/illustrations-cover.jpg",
-    link: "test",
-  },
-  {
-    id: 12,
-    title: "sunil",
-    description: "24",
-    img: "https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2021/01/illustrations-cover.jpg",
-    link: "test",
-  },
-];
+import { products } from "../data/dummy-data.js";
 
 $(function () {
+  const itemsSale = products.slice(0, 12) 
   const newItems = [];
   const numberItemOfEachPage = 4;
-  for (let i = 0; i < items.length; i += numberItemOfEachPage) {
-    const page = items.slice(i, i + numberItemOfEachPage);
+  for (let i = 0; i < itemsSale.length; i += numberItemOfEachPage) {
+    const page = itemsSale.slice(i, i + numberItemOfEachPage);
     newItems.push(page);
   }
-
+  
   document.getElementById("item-sale").innerHTML = newItems
     .map(
       (group, index) =>
@@ -104,10 +20,10 @@ $(function () {
                  <div class="col">
                      <div class="card">
                          <img src=${item.img}
-                             class="card-img-top" alt="...">
+                             class="card-img-top img-product-item" alt="...">
                          <div class="card-body">
-                             <h5 class="card-title">${item.title}</h5>
-                             <p class="card-text">${item.description}</p>
+                             <h5 class="card-title title">${item.name}</h5>
+                             <p class="card-text description">${item.description}</p>
                          </div>
                      </div>
                  </div>`
