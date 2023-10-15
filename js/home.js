@@ -8,7 +8,6 @@ $(function () {
     const page = itemsSale.slice(i, i + numberItemOfEachPage);
     newItems.push(page);
   }
-  
   document.getElementById("item-sale").innerHTML = newItems
     .map(
       (group, index) =>
@@ -18,16 +17,18 @@ $(function () {
                 ${group.map(
                   (item) => `
                  <div class="col">
-                     <div class="card">
-                         <img src=${item.img}
-                             class="card-img-top img-product-item" alt="...">
-                         <div class="card-body">
-                             <h5 class="card-title title">${item.name}</h5>
-                             <p class="card-text description">${item.description}</p>
-                         </div>
-                     </div>
+                  <a href="product-detail.html?id=${item.id}" style="text-decoration:none; color: inherit;">
+                  <div class="card">
+                          <img src=${item.img}
+                              class="card-img-top img-product-item" alt="...">
+                          <div class="card-body">
+                              <h5 class="card-title title">${item.name}</h5>
+                              <p class="card-text description">${item.description}</p>
+                          </div>
+                      </div>
+                  </a>
                  </div>`
-                )}
+                ).join("")}
             </div>
         </div>
     </div>`
