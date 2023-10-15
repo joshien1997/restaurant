@@ -1,59 +1,59 @@
 export const products = [
   {
     id: 1,
-    name: "Evaporated Milk - Skim",
+    name: "Blendtec Classic 575 Blender w/ FourSide Jar | Black",
     description:
-      "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
+      "black",
     cost: "$9.20",
-    img: "http://dummyimage.com/205x100.png/dddddd/000000",
-  },
+    img: "https://cdn.everythingkitchens.com/media/wysiwyg/Banners/homepage/dbj_0006_Layer.jpg",
+      },
   {
     id: 2,
-    name: "Wine - George Duboeuf Rose",
+    name: "Tripar International 3-Tier Wooden Display Stand",
     description:
-      "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
+      "white",
     cost: "$0.54",
-    img: "http://dummyimage.com/218x100.png/cc0000/ffffff",
+    img: "https://cdn.everythingkitchens.com/media/wysiwyg/Banners/homepage/a_0002_tdeal.jpg",
   },
   {
     id: 3,
-    name: "Easy Off Oven Cleaner",
+    name: "Instant Omni Air Fryer Toaster Oven |",
     description:
-      "In congue. Etiam justo. Etiam pretium iaculis justo.\n\nIn hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.\n\nNulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
+      "Black",
     cost: "$8.78",
-    img: "http://dummyimage.com/104x100.png/cc0000/ffffff",
+    img: "https://cdn.everythingkitchens.com/media/wysiwyg/Banners/homepage/DealsButtons_0002_555555.jpg",
   },
   {
     id: 4,
-    name: "Island Oasis - Mango Daiquiri",
+    name: "Barnyard Baby Animals Round Pot Holder | ",
     description:
-      "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.\n\nMaecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
+      "Caprine Caper Goats",
     cost: "$2.31",
-    img: "http://dummyimage.com/232x100.png/cc0000/ffffff",
+    img: "https://cdn.everythingkitchens.com/media/wysiwyg/Banners/homepage/sbsep_0001_Layer.jpg",
   },
   {
     id: 5,
-    name: "Plate - Foam, Bread And Butter",
+    name: "Mason Cash Color Mix S18 (2.85 Qt) Mixing Bowl | ",
     description:
-      "Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.\n\nMorbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.\n\nFusce consequat. Nulla nisl. Nunc nisl.",
+      "Grey",
     cost: "$7.13",
-    img: "http://dummyimage.com/196x100.png/5fa2dd/ffffff",
+    img: "https://cdn.everythingkitchens.com/media/wysiwyg/Banners/homepage/a_0005_mcdeal.jpg",
   },
   {
     id: 6,
-    name: "Ice Cream - Fudge Bars",
+    name: "KitchenAid 5-Quart Artisan Tilt-Head Stand Mixers | ",
     description:
-      "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
+      "Multiple Colors Available",
     cost: "$2.38",
-    img: "http://dummyimage.com/237x100.png/5fa2dd/ffffff",
+    img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/1e92cb92f6cdc27d285ff0da8b2b8583/k/s/ksm150psfg_matte_gray.jpg",
   },
   {
     id: 7,
-    name: "Sausage - Liver",
+    name: "Smeg Peronsal Blender | ",
     description:
-      "In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
+      "White",
     cost: "$0.53",
-    img: "http://dummyimage.com/102x100.png/dddddd/000000",
+    img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/p/b/pbf01whus_4.jpg",
   },
   {
     id: 8,
@@ -61,180 +61,190 @@ export const products = [
     description:
       "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",
     cost: "$5.63",
-    img: "http://dummyimage.com/187x100.png/dddddd/000000",
+    img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/3/2/32oz-blendtec-twister-jar-popup.jpg",
   },
   {
     id: 9,
-    name: "Longos - Chicken Cordon Bleu",
+    name: "Cuisinart Hurricane Velocity 2.25 Peak HP Blender",
     description:
-      "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.\n\nMaecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
+      "Grey",
     cost: "$1.22",
-    img: "http://dummyimage.com/185x100.png/ff4444/ffffff",
+    img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/5/1/51dmpub2qdl._ac_sl1024_.jpg",
   },
   {
     id: 10,
-    name: "Hipnotiq Liquor",
-    description: "In congue. Etiam justo. Etiam pretium iaculis justo.",
+    name: "Blendtec Home Total Blender With WildSide Jar | ",
+    description: "Black",
     cost: "$7.92",
-    img: "http://dummyimage.com/108x100.png/ff4444/ffffff",
+    img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/t/b/tb_black_ws_eba15545-6428-4e5c-a.jpg",
   },
   {
     id: 11,
-    name: "Corn - On The Cob",
+    name: "KitchenAid Pro Line Series Blender with Thermal Control Jar | ",
     description:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.\n\nVestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",
+      "Frosted Pearl",
     cost: "$0.17",
-    img: "http://dummyimage.com/241x100.png/dddddd/000000",
+    img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/k/s/ksb8270fp_kitchenaid_pro_line_blender_with_thermal_jar_frosted_pearl.jpg",
   },
   {
     id: 12,
-    name: "Blueberries",
-    description: "Fusce consequat. Nulla nisl. Nunc nisl.",
+    name: "Nutr Plant-Based Milk Maker | Black",
+    description: "Black",
     cost: "$9.04",
-    img: "http://dummyimage.com/115x100.png/ff4444/ffffff",
+    img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/6/1/61a6r1sevbl._ac_sl1500_.jpg",
   },
   {
     id: 13,
-    name: "Food Colouring - Pink",
+    name: "Blendtec Home Designer 650 Blender With WildSide Jar | ",
     description:
-      "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.\n\nQuisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.\n\nPhasellus in felis. Donec semper sapien a libero. Nam dui.",
+      "Pomegranate",
     cost: "$5.07",
-    img: "http://dummyimage.com/159x100.png/5fa2dd/ffffff",
+    img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/d/6/d650_pomegranate_ws_new_interface.jpg",
   },
   {
     id: 14,
-    name: "Soup - Campbells Mushroom",
+    name: "Blendtec Commercial Rapid Rinse Station + WildSide Jar",
     description:
-      "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
+      "3-Pack",
     cost: "$8.10",
-    img: "http://dummyimage.com/109x100.png/5fa2dd/ffffff",
+    img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/e/k/ekb-kt-rrws3.jpg",
   },
   {
     id: 15,
-    name: "Bok Choy - Baby",
+    name: "Braun Multiquick 5 Vario Immersion Blender | ",
     description:
-      "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
+      "Black",
     cost: "$6.42",
-    img: "http://dummyimage.com/102x100.png/cc0000/ffffff",
+    img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/a/n/annotation_2019-11-15_150027112.png",
   },
   {
-    id: 16,
-    name: "Chicken - Whole Roasting",
+  
+    // hết ảnh máy xay
+
+   id: 16,
+    name: "KitchenAid Gourmet Forged 4-Piece 4.5 Steak Knife Set | ",
     description:
-      "Fusce consequat. Nulla nisl. Nunc nisl.\n\nDuis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
+      "Serrated",
     cost: "$5.55",
-    img: "http://dummyimage.com/131x100.png/dddddd/000000",
+    img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/7/1/71-adjzk2yl._ac_sl1500_.jpg",
   },
   {
     id: 17,
-    name: "Relish",
+    name: "Zwilling J.A. Henckels TWIN Gourmet 8-Piece Steak Knife ",
     description:
-      "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.\n\nMaecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n\nMaecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
+      "Set w/ Box",
     cost: "$1.69",
-    img: "http://dummyimage.com/157x100.png/dddddd/000000",
+    img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/4/1/41vvhe005nl_1_.jpg",
   },
   {
     id: 18,
-    name: "Ginger - Fresh",
+    name: "Zwilling J.A. Henckels TWIN 8pc Steak Knife",
     description:
-      "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
+      "Set w/ Box",
     cost: "$5.37",
-    img: "http://dummyimage.com/117x100.png/cc0000/ffffff",
+    img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/3/9/39135-850_zwilling_ja_henckels_twin_8pc_steak_knife_set_with_box.jpg",
   },
   {
     id: 19,
-    name: "Coffee - Colombian, Portioned",
+    name: "Viking 6-Piece Steak Knife Set With Box | ",
     description:
-      "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.",
+      "Black",
     cost: "$1.51",
-    img: "http://dummyimage.com/174x100.png/5fa2dd/ffffff",
+    img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/8/1/81isgn_qghl._ac_sl1500_.jpg",
   },
+
+  // hết ảnh dao 
+  
   {
     id: 20,
-    name: "Veal - Leg, Provimi - 50 Lb Max",
+    name: "Mason Cash In the Meadow 13.5oz Mug | ",
     description:
-      "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n\nMaecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.\n\nNullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
+      "Green Tulip",
     cost: "$0.23",
-    img: "http://dummyimage.com/219x100.png/dddddd/000000",
+    img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/2/0/2002.170_1.jpg",
   },
   {
     id: 21,
-    name: "Wine - Chablis 2003 Champs",
+    name: "Fiesta® 15oz Tapered Mug | ",
     description:
-      "Fusce consequat. Nulla nisl. Nunc nisl.\n\nDuis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n\nIn hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
+      "Hello My Pretties",
     cost: "$5.03",
-    img: "http://dummyimage.com/146x100.png/5fa2dd/ffffff",
+    img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/1/4/147542329.jpg",
   },
   {
     id: 22,
-    name: "Nut - Pistachio, Shelled",
+    name: "Fiesta® 15oz Tapered Mug | ",
     description:
-      "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.\n\nQuisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
+      "Skull and Vine Twilight",
     cost: "$2.00",
-    img: "http://dummyimage.com/138x100.png/ff4444/ffffff",
+    img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/1/4/147542431.jpg",
   },
   {
     id: 23,
-    name: "Wheat - Soft Kernal Of Wheat",
+    name: "Fiesta® 15oz Tapered Mug | ",
     description:
-      "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+      "Mystical Halloween",
     cost: "$8.05",
-    img: "http://dummyimage.com/113x100.png/cc0000/ffffff",
+    img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/1/4/147542030.jpg",
   },
   {
     id: 24,
-    name: "Duck - Breast",
+    name: "OTOTO Gracula Garlic Crusher",
     description:
-      "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\n\nDuis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.\n\nDonec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
+      "Ceramic",
     cost: "$6.64",
-    img: "http://dummyimage.com/121x100.png/ff4444/ffffff",
+    img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/g/r/gracula_1.jpg",
   },
   {
+
+// đến accessories
+
     id: 25,
-    name: "Arctic Char - Fresh, Whole",
+    name: "OTOTO Rockula Garlic Crusher",
     description:
-      "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
+      "Steel",
     cost: "$7.76",
-    img: "http://dummyimage.com/190x100.png/cc0000/ffffff",
+    img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/2/0/207_rockula.jpg",
   },
   {
     id: 26,
-    name: "Beef - Diced",
+    name: "Danica Jubilee Candy Bucket | ",
     description:
-      "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.\n\nMaecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+      "Boo Crew Bat",
     cost: "$2.95",
-    img: "http://dummyimage.com/209x100.png/dddddd/000000",
+    img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/j/b/jbs1123d_jubilee_holiday_basket_kids_boo_crew_bat_main.jpg",
   },
   {
     id: 27,
-    name: "Dried Apple",
+    name: "Kikkerland Corkscrew | ",
     description:
-      "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.\n\nProin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\n\nDuis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
+      "Day of the Dead Skull",
     cost: "$5.02",
-    img: "http://dummyimage.com/141x100.png/cc0000/ffffff",
+    img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/d/a/day_of_the_dead_main.jpg",
   },
   {
     id: 28,
-    name: "Sproutsmustard Cress",
+    name: "Le Creuset Craft Series Medium Spatula | ",
     description:
-      "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.\n\nMaecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+      "Noel (Santa #1)",
     cost: "$0.69",
-    img: "http://dummyimage.com/106x100.png/dddddd/000000",
+    img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/j/s/js410-16nc20.jpg",
   },
   {
     id: 29,
-    name: "Sugar - Monocystal / Rock",
+    name: "Le Creuset Craft Series Medium Spatula | ",
     description:
-      "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n\nMaecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
+      "Noel (Santa #2)",
     cost: "$7.43",
-    img: "http://dummyimage.com/108x100.png/ff4444/ffffff",
+    img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/s/p/spatula2.jpg",
   },
   {
-    id: 30,
-    name: "Tea - Grapefruit Green Tea",
+    id: 31,
+    name: "OTOTO Baby Nessie Tea Infuser | ",
     description:
-      "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.\n\nIn sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
+      "Purple",
     cost: "$6.27",
-    img: "http://dummyimage.com/204x100.png/ff4444/ffffff",
+    img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/2/7/273_ototo_baby_nessie.jpg",
   },
+
 ];

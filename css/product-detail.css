@@ -1,0 +1,23 @@
+
+#img-product{
+    height: auto;
+    /* left: 50%; */
+    max-height: 100%;
+    max-width: 100%;
+    /* position: absolute; */
+    /* top: 50%; */
+    /* transition-property: width,height,top,left;
+    vertical-align: middle;
+    width: auto; */
+}
+/* body{
+    font-size: 30px;
+     color: #333;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+} */
+
+.btn-customize11  {
+    height: 100px;
+    width: 100px;
+
+}
