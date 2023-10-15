@@ -83,3 +83,113 @@ th, td {
     background-color: #4CAF50;
     color: white;
 }
+
+/* Common styles for both mobile and larger screens */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+#header-placeholder {
+    margin-bottom: 20px;
+}
+
+#cart {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Coupon and Subtotal sections */
+#cart-add {
+    display: flex;
+    flex-direction: column;
+}
+
+#coupon, #subtotal {
+    width: 100%;
+}
+
+#coupon input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+#subtotal table {
+    width: 100%;
+}
+
+#subtotal td {
+    padding: 10px;
+}
+
+button.fw-normal {
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button.fw-normal.green {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Adjustments for larger screens using media queries */
+@media (min-width: 768px) {
+    #cart {
+        padding: 30px;
+    }
+
+    #cart-add {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #coupon, #subtotal {
+        width: 48%;
+    }
+
+    #coupon input {
+        width: 100%;
+    }
+}
+/* Other CSS remains unchanged */
+
+/* Adjustments for larger screens using media queries */
+@media (min-width: 768px) {
+    /* Other CSS for larger screens remains unchanged */
+
+    /* Adjustments for subtotal table */
+    #subtotal table {
+        width: 100%;
+        max-width: none; /* Reset the maximum width */
+    }
+}
+
+/* Additional adjustments for smaller screens */
+@media (max-width: 767px) {
+    /* Reduce font size for table content on smaller screens */
+    #subtotal table td {
+        font-size: 14px;
+        width: 50%;
+    }
+}
