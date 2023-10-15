@@ -5,26 +5,17 @@ export const products = [
     description:
       "black",
     cost: "$9.20",
-<<<<<<< HEAD
     img: "https://cdn.everythingkitchens.com/media/wysiwyg/Banners/homepage/dbj_0006_Layer.jpg",
-      },
-=======
-    img: "http://dummyimage.com/205x100.png/dddddd/000000",
     type: 1
   },
->>>>>>> 25af46493bc4226b99a0f6a133ff74b4e2c15276
   {
     id: 2,
     name: "Tripar International 3-Tier Wooden Display Stand",
     description:
       "white",
     cost: "$0.54",
-<<<<<<< HEAD
     img: "https://cdn.everythingkitchens.com/media/wysiwyg/Banners/homepage/a_0002_tdeal.jpg",
-=======
-    img: "http://dummyimage.com/218x100.png/cc0000/ffffff",
     type: 1
->>>>>>> 25af46493bc4226b99a0f6a133ff74b4e2c15276
   },
   {
     id: 3,
@@ -32,12 +23,8 @@ export const products = [
     description:
       "Black",
     cost: "$8.78",
-<<<<<<< HEAD
     img: "https://cdn.everythingkitchens.com/media/wysiwyg/Banners/homepage/DealsButtons_0002_555555.jpg",
-=======
-    img: "http://dummyimage.com/104x100.png/cc0000/ffffff",
     type: 1
->>>>>>> 25af46493bc4226b99a0f6a133ff74b4e2c15276
   },
   {
     id: 4,
@@ -45,12 +32,8 @@ export const products = [
     description:
       "Caprine Caper Goats",
     cost: "$2.31",
-<<<<<<< HEAD
     img: "https://cdn.everythingkitchens.com/media/wysiwyg/Banners/homepage/sbsep_0001_Layer.jpg",
-=======
-    img: "http://dummyimage.com/232x100.png/cc0000/ffffff",
     type: 1
->>>>>>> 25af46493bc4226b99a0f6a133ff74b4e2c15276
   },
   {
     id: 5,
@@ -58,12 +41,8 @@ export const products = [
     description:
       "Grey",
     cost: "$7.13",
-<<<<<<< HEAD
     img: "https://cdn.everythingkitchens.com/media/wysiwyg/Banners/homepage/a_0005_mcdeal.jpg",
-=======
-    img: "http://dummyimage.com/196x100.png/5fa2dd/ffffff",
     type: 1
->>>>>>> 25af46493bc4226b99a0f6a133ff74b4e2c15276
   },
   {
     id: 6,
@@ -71,12 +50,8 @@ export const products = [
     description:
       "Multiple Colors Available",
     cost: "$2.38",
-<<<<<<< HEAD
     img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/1e92cb92f6cdc27d285ff0da8b2b8583/k/s/ksm150psfg_matte_gray.jpg",
-=======
-    img: "http://dummyimage.com/237x100.png/5fa2dd/ffffff",
     type: 1
->>>>>>> 25af46493bc4226b99a0f6a133ff74b4e2c15276
   },
   {
     id: 7,
@@ -84,12 +59,8 @@ export const products = [
     description:
       "White",
     cost: "$0.53",
-<<<<<<< HEAD
     img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/p/b/pbf01whus_4.jpg",
-=======
-    img: "http://dummyimage.com/102x100.png/dddddd/000000",
     type: 1
->>>>>>> 25af46493bc4226b99a0f6a133ff74b4e2c15276
   },
   {
     id: 8,
@@ -97,12 +68,8 @@ export const products = [
     description:
       "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",
     cost: "$5.63",
-<<<<<<< HEAD
     img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/3/2/32oz-blendtec-twister-jar-popup.jpg",
-=======
-    img: "http://dummyimage.com/187x100.png/dddddd/000000",
     type: 1
->>>>>>> 25af46493bc4226b99a0f6a133ff74b4e2c15276
   },
   {
     id: 9,
@@ -110,24 +77,16 @@ export const products = [
     description:
       "Grey",
     cost: "$1.22",
-<<<<<<< HEAD
     img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/5/1/51dmpub2qdl._ac_sl1024_.jpg",
-=======
-    img: "http://dummyimage.com/185x100.png/ff4444/ffffff",
     type: 1
->>>>>>> 25af46493bc4226b99a0f6a133ff74b4e2c15276
   },
   {
     id: 10,
     name: "Blendtec Home Total Blender With WildSide Jar | ",
     description: "Black",
     cost: "$7.92",
-<<<<<<< HEAD
     img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/t/b/tb_black_ws_eba15545-6428-4e5c-a.jpg",
-=======
-    img: "http://dummyimage.com/108x100.png/ff4444/ffffff",
     type: 1
->>>>>>> 25af46493bc4226b99a0f6a133ff74b4e2c15276
   },
   {
     id: 11,
@@ -135,24 +94,16 @@ export const products = [
     description:
       "Frosted Pearl",
     cost: "$0.17",
-<<<<<<< HEAD
     img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/k/s/ksb8270fp_kitchenaid_pro_line_blender_with_thermal_jar_frosted_pearl.jpg",
-=======
-    img: "http://dummyimage.com/241x100.png/dddddd/000000",
     type: 1
->>>>>>> 25af46493bc4226b99a0f6a133ff74b4e2c15276
   },
   {
     id: 12,
     name: "Nutr Plant-Based Milk Maker | Black",
     description: "Black",
     cost: "$9.04",
-<<<<<<< HEAD
     img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/6/1/61a6r1sevbl._ac_sl1500_.jpg",
-=======
-    img: "http://dummyimage.com/115x100.png/ff4444/ffffff",
     type: 2
->>>>>>> 25af46493bc4226b99a0f6a133ff74b4e2c15276
   },
   {
     id: 13,
@@ -160,12 +111,8 @@ export const products = [
     description:
       "Pomegranate",
     cost: "$5.07",
-<<<<<<< HEAD
     img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/d/6/d650_pomegranate_ws_new_interface.jpg",
-=======
-    img: "http://dummyimage.com/159x100.png/5fa2dd/ffffff",
     type: 2
->>>>>>> 25af46493bc4226b99a0f6a133ff74b4e2c15276
   },
   {
     id: 14,
@@ -173,12 +120,8 @@ export const products = [
     description:
       "3-Pack",
     cost: "$8.10",
-<<<<<<< HEAD
     img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/e/k/ekb-kt-rrws3.jpg",
-=======
-    img: "http://dummyimage.com/109x100.png/5fa2dd/ffffff",
     type: 2
->>>>>>> 25af46493bc4226b99a0f6a133ff74b4e2c15276
   },
   {
     id: 15,
@@ -186,12 +129,8 @@ export const products = [
     description:
       "Black",
     cost: "$6.42",
-<<<<<<< HEAD
     img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/a/n/annotation_2019-11-15_150027112.png",
-=======
-    img: "http://dummyimage.com/102x100.png/cc0000/ffffff",
     type: 2
->>>>>>> 25af46493bc4226b99a0f6a133ff74b4e2c15276
   },
   {
   
@@ -202,12 +141,8 @@ export const products = [
     description:
       "Serrated",
     cost: "$5.55",
-<<<<<<< HEAD
     img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/7/1/71-adjzk2yl._ac_sl1500_.jpg",
-=======
-    img: "http://dummyimage.com/131x100.png/dddddd/000000",
     type: 2
->>>>>>> 25af46493bc4226b99a0f6a133ff74b4e2c15276
   },
   {
     id: 17,
@@ -215,12 +150,8 @@ export const products = [
     description:
       "Set w/ Box",
     cost: "$1.69",
-<<<<<<< HEAD
     img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/4/1/41vvhe005nl_1_.jpg",
-=======
-    img: "http://dummyimage.com/157x100.png/dddddd/000000",
     type: 2
->>>>>>> 25af46493bc4226b99a0f6a133ff74b4e2c15276
   },
   {
     id: 18,
@@ -228,12 +159,8 @@ export const products = [
     description:
       "Set w/ Box",
     cost: "$5.37",
-<<<<<<< HEAD
     img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/3/9/39135-850_zwilling_ja_henckels_twin_8pc_steak_knife_set_with_box.jpg",
-=======
-    img: "http://dummyimage.com/117x100.png/cc0000/ffffff",
     type: 2
->>>>>>> 25af46493bc4226b99a0f6a133ff74b4e2c15276
   },
   {
     id: 19,
@@ -241,12 +168,8 @@ export const products = [
     description:
       "Black",
     cost: "$1.51",
-<<<<<<< HEAD
     img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/8/1/81isgn_qghl._ac_sl1500_.jpg",
-=======
-    img: "http://dummyimage.com/174x100.png/5fa2dd/ffffff",
     type: 2
->>>>>>> 25af46493bc4226b99a0f6a133ff74b4e2c15276
   },
 
   // hết ảnh dao 
@@ -257,12 +180,8 @@ export const products = [
     description:
       "Green Tulip",
     cost: "$0.23",
-<<<<<<< HEAD
     img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/2/0/2002.170_1.jpg",
-=======
-    img: "http://dummyimage.com/219x100.png/dddddd/000000",
     type: 2
->>>>>>> 25af46493bc4226b99a0f6a133ff74b4e2c15276
   },
   {
     id: 21,
@@ -270,12 +189,8 @@ export const products = [
     description:
       "Hello My Pretties",
     cost: "$5.03",
-<<<<<<< HEAD
     img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/1/4/147542329.jpg",
-=======
-    img: "http://dummyimage.com/146x100.png/5fa2dd/ffffff",
     type: 2
->>>>>>> 25af46493bc4226b99a0f6a133ff74b4e2c15276
   },
   {
     id: 22,
@@ -283,12 +198,8 @@ export const products = [
     description:
       "Skull and Vine Twilight",
     cost: "$2.00",
-<<<<<<< HEAD
     img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/1/4/147542431.jpg",
-=======
-    img: "http://dummyimage.com/138x100.png/ff4444/ffffff",
     type: 2
->>>>>>> 25af46493bc4226b99a0f6a133ff74b4e2c15276
   },
   {
     id: 23,
@@ -296,12 +207,8 @@ export const products = [
     description:
       "Mystical Halloween",
     cost: "$8.05",
-<<<<<<< HEAD
     img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/1/4/147542030.jpg",
-=======
-    img: "http://dummyimage.com/113x100.png/cc0000/ffffff",
     type: 3
->>>>>>> 25af46493bc4226b99a0f6a133ff74b4e2c15276
   },
   {
     id: 24,
@@ -309,12 +216,8 @@ export const products = [
     description:
       "Ceramic",
     cost: "$6.64",
-<<<<<<< HEAD
     img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/g/r/gracula_1.jpg",
-=======
-    img: "http://dummyimage.com/121x100.png/ff4444/ffffff",
     type: 3
->>>>>>> 25af46493bc4226b99a0f6a133ff74b4e2c15276
   },
   {
 
@@ -325,12 +228,8 @@ export const products = [
     description:
       "Steel",
     cost: "$7.76",
-<<<<<<< HEAD
     img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/2/0/207_rockula.jpg",
-=======
-    img: "http://dummyimage.com/190x100.png/cc0000/ffffff",
     type: 3
->>>>>>> 25af46493bc4226b99a0f6a133ff74b4e2c15276
   },
   {
     id: 26,
@@ -338,12 +237,8 @@ export const products = [
     description:
       "Boo Crew Bat",
     cost: "$2.95",
-<<<<<<< HEAD
     img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/j/b/jbs1123d_jubilee_holiday_basket_kids_boo_crew_bat_main.jpg",
-=======
-    img: "http://dummyimage.com/209x100.png/dddddd/000000",
     type: 3
->>>>>>> 25af46493bc4226b99a0f6a133ff74b4e2c15276
   },
   {
     id: 27,
@@ -351,12 +246,8 @@ export const products = [
     description:
       "Day of the Dead Skull",
     cost: "$5.02",
-<<<<<<< HEAD
     img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/d/a/day_of_the_dead_main.jpg",
-=======
-    img: "http://dummyimage.com/141x100.png/cc0000/ffffff",
     type: 3
->>>>>>> 25af46493bc4226b99a0f6a133ff74b4e2c15276
   },
   {
     id: 28,
@@ -364,12 +255,8 @@ export const products = [
     description:
       "Noel (Santa #1)",
     cost: "$0.69",
-<<<<<<< HEAD
     img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/j/s/js410-16nc20.jpg",
-=======
-    img: "http://dummyimage.com/106x100.png/dddddd/000000",
     type: 3
->>>>>>> 25af46493bc4226b99a0f6a133ff74b4e2c15276
   },
   {
     id: 29,
@@ -377,12 +264,8 @@ export const products = [
     description:
       "Noel (Santa #2)",
     cost: "$7.43",
-<<<<<<< HEAD
     img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/s/p/spatula2.jpg",
-=======
-    img: "http://dummyimage.com/108x100.png/ff4444/ffffff",
     type: 3
->>>>>>> 25af46493bc4226b99a0f6a133ff74b4e2c15276
   },
   {
     id: 31,
@@ -390,10 +273,7 @@ export const products = [
     description:
       "Purple",
     cost: "$6.27",
-<<<<<<< HEAD
     img: "https://cdn.everythingkitchens.com/media/catalog/product/cache/165d8dfbc515ae349633b49ac444a724/2/7/273_ototo_baby_nessie.jpg",
-=======
-    img: "http://dummyimage.com/204x100.png/ff4444/ffffff",
     type: 3
   },
   {
@@ -1015,7 +895,6 @@ export const products = [
     cost: "$1.87",
     img: "http://dummyimage.com/176x100.png/ff4444/ffffff",
     type: 1,
->>>>>>> 25af46493bc4226b99a0f6a133ff74b4e2c15276
   },
 
 ];
