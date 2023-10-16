@@ -40,6 +40,10 @@ th, td {
     text-align: left;
 }
 
+#cart table img {
+    width: 70px;
+}
+
 /* Cart totals section styling */
 #cart-add {
     background-color: #fff;
