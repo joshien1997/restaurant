@@ -48,7 +48,7 @@ function nextTo(pageNumber) {
                     <h5 class="card-title title">${item.name}</h5>
                     <p class="card-text description">${item.description}</p>
                 </a>
-                <p class="card-text">${item.cost}</p>
+                <h6 class="card-text" style="margin-top: 16px">${item.cost}</h6>
                 <button type="button" class="btn btn-success" style="border-radius: 4px; background-color: #0b8a00;">Add to Cart</button>
               </div>
             </div>
