@@ -86,5 +86,6 @@ function removeProduct(product) {
       "productsAddToCart",
       JSON.stringify({ productsAddToCart })
     );
+    calculateTotal()
   }
 }
