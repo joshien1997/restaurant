@@ -40,6 +40,7 @@ $(function () {
     imgs.forEach((img, index) => {
       const elImg = document.getElementById(`product-img-${index + 1}`);
       elImg.setAttribute("src", img);
+      elImg.onclick = () => setProductAvatar(img);
     });
 
     document.getElementById("button-add-to-cart").onclick = addToCart;

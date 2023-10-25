@@ -49,18 +49,19 @@ function nextTo(pageNumber) {
                     <p class="card-text description">${item.description}</p>
                 </a>
                 <h6 class="card-text" style="margin-top: 16px">${item.cost}</h6>
-                <button type="button" class="btn btn-success button-add-to-cart" style="border-radius: 4px; background-color: #0b8a00;" onclick="addToCart(${JSON.stringify(item)})">Add to Cart</button>
+                <button type="button" class="btn btn-success" id="button-add-to-cart-${index + 1}" style="border-radius: 4px; background-color: #0b8a00;" >Add to Cart</button>
               </div>
             </div>
     </div>`
     )
     .join("");
 
-  document.addEventListener("click", (e) => {
-  });
+    result.forEach((product, index) => {
+      const elBtn = document.getElementById(`button-add-to-cart-${index + 1}`);
+      elBtn.onclick = () => addToCart(product);
+    });
 }
 
-function addToCart(item) {
-  console.log('addToCart', item);
-  // handleAddTocart(item);
+function addToCart(product) {
+  handleAddTocart(product);
 }

@@ -4,7 +4,7 @@ const productsAddToCart = JSON.parse(
 $(function () {
   let table = document.getElementById("table-cart");
 
-  productsAddToCart.forEach((item) => {
+  productsAddToCart.forEach((item, index) => {
     let row = table.insertRow(-1); // We are adding at the end
 
     // Create table cells
@@ -21,7 +21,7 @@ $(function () {
     // Add data to c1 and c2
     const numberPrice = parseFloat(item.cost.replace("$", ""));
 
-    action.innerHTML = `<button type="button" class="btn btn-danger button-remove-prod"><i class="fa-solid fa-trash"></i></button>`;
+    action.innerHTML = `<button type="button" class="btn btn-danger button-remove-prod" id="btn-remove-${index + 1}"><i class="fa-solid fa-trash"></i></button>`;
     // const button = document.createElement("button");
     // button.type = "button";
     // button.classList.add("btn", "btn-danger", "button-remove-prod");
@@ -33,6 +33,8 @@ $(function () {
     // button.appendChild(icon);
 
     // action.appendChild(button);
+    const elBtn = document.getElementById(`btn-remove-${index + 1}`);
+    elBtn.onclick = () => removeProduct(item);
 
     imageCol.innerHTML = `<img src=${item.img1} alt="1">`;
     productCol.innerText = item.name;
