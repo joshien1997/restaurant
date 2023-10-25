@@ -19,7 +19,7 @@ $(function () {
                  <div class="col">
                   <a href="product-detail.html?id=${item.id}" style="text-decoration:none; color: inherit;">
                   <div class="card">
-                          <img src=${item.img}
+                          <img src=${item.img1}
                               class="card-img-top img-product-item" alt="...">
                           <div class="card-body">
                               <h5 class="card-title title">${item.name}</h5>

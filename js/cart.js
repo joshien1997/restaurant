@@ -22,13 +22,40 @@ $(function () {
     const numberPrice = parseFloat(item.cost.replace("$", ""));
 
     action.innerHTML = `<button type="button" class="btn btn-danger button-remove-prod"><i class="fa-solid fa-trash"></i></button>`;
-    imageCol.innerHTML = `<img src=${item.img} alt="1">`;
+    // const button = document.createElement("button");
+    // button.type = "button";
+    // button.classList.add("btn", "btn-danger", "button-remove-prod");
+
+    // const icon = document.createElement("i");
+    // icon.classList.add("fa-solid", "fa-trash");
+
+    // button.onclick = () => removeProduct(item);
+    // button.appendChild(icon);
+
+    // action.appendChild(button);
+
+    imageCol.innerHTML = `<img src=${item.img1} alt="1">`;
     productCol.innerText = item.name;
     priceCol.innerText = item.cost;
     quantityCol.innerHTML = item.quantity;
     subTotalCol.innerText = `$${(item.quantity * numberPrice).toFixed(2)}`;
   });
+  calculateTotal();
+  document.getElementById("button-remove-all").onclick = removeAllProduct;
 });
+
+function calculateTotal() {
+  const subTotal = productsAddToCart.reduce((acc, item) => {
+    const numberPrice = parseFloat(item.cost.replace("$", ""));
+    return acc + numberPrice * item.quantity;
+  }, 0);
+  const feeShip = 0;
+  const total = subTotal + feeShip;
+  document.getElementById("subtotal-cart").innerText = `$${subTotal.toFixed(
+    2
+  )}`;
+  document.getElementById("total-cart").innerText = `$${total.toFixed(2)}`;
+}
 
 function handleAddTocart(product) {
   const indexExist = productsAddToCart.findIndex(
@@ -52,14 +79,10 @@ function removeProduct(product) {
   );
   if (indexExist > -1) {
     productsAddToCart.splice(indexExist, 1);
-    document.getElementById("table-cart").deleteRow(indexExist);
+    document.getElementById("table-cart").deleteRow(indexExist + 1);
     sessionStorage.setItem(
       "productsAddToCart",
-      JSON.stringify(productsAddToCart)
+      JSON.stringify({ productsAddToCart })
     );
   }
-}
-
-function removeAllProduct() {
-  sessionStorage.setItem("productsAddToCart", JSON.stringify([]));
 }
